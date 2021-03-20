@@ -1,0 +1,23 @@
+.bottom_bar {
+  padding: 1rem 4.5rem;
+
+  .inner_area {
+    margin: 0 auto;
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    color: #414040;
+    font-size: 0.9rem;
+
+    .copyright_text {
+      display: flex;
+      align-items: center;
+      text-transform: capitalize;
+
+      .copyright_icon {
+        display: inline-block;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}

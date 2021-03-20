@@ -1,0 +1,26 @@
+.sale_banner {
+  padding: 3.5rem 4.5rem;
+
+  .inner_container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1360px;
+    height: 65vh;
+    background-image: url("../../assets/images/img-12.png");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .button {
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: none;
+      padding: 1rem 2rem;
+      background-color: #faf9f9;
+      color: #202022;
+      font-size: 1.2rem;
+    }
+  }
+}

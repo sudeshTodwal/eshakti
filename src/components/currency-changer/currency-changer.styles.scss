@@ -1,0 +1,43 @@
+.currency-changer-modal {
+  .currency-changer-container {
+    min-height: 60vh;
+    overflow-y: scroll;
+    .inner-container {
+      max-height: 80vh;
+      width: 100%;
+      padding: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      .each-currency {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin: 1rem;
+        flex-basis: 10rem;
+
+        .inner-area {
+          display: flex;
+          align-items: center;
+          padding: 0.3rem 0.5rem;
+          border: 1px solid #fff;
+
+          &:hover {
+            border-color: #cccccc;
+          }
+        }
+
+        .flag {
+          margin-right: 0.3rem;
+        }
+
+        .country-name {
+          white-space: nowrap;
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}

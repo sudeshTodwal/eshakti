@@ -1,0 +1,107 @@
+.react-responsive-modal-modal {
+  padding: 0 !important;
+
+  .inner-container-login {
+    .title-text {
+      margin: 0;
+      padding: 1rem;
+      background: #333333;
+      color: #fff;
+      font-size: 1.5rem;
+    }
+
+    .content {
+      display: flex;
+      padding: 2rem;
+
+      .right,
+      .left {
+        width: 50%;
+      }
+
+      .left {
+        padding-right: 1rem;
+        label {
+          color: #bbbbbb;
+          font-weight: 500;
+          display: inline-block;
+          margin-bottom: 0.8rem;
+        }
+
+        .form {
+          .form-input {
+            margin-bottom: 1.2rem;
+          }
+          input {
+            border: 1px solid #dddddd;
+            border-radius: 3px;
+            font-size: 1rem;
+          }
+
+          input[type="submit"] {
+            border: none;
+            padding: 1rem 2.2rem;
+            border-radius: 0.3rem;
+            background-color: rgb(125, 224, 175);
+            color: #fff;
+            font-size: 1.2rem;
+          }
+
+          .forgott-password-link {
+            margin-bottom: 1.3rem;
+            .forgot-link {
+              color: rgb(125, 224, 175);
+              font-weight: 600;
+            }
+          }
+        }
+      }
+
+      .right {
+        padding-left: 1rem;
+
+        .area-title {
+          font-size: 1.5rem;
+          color: #2c2c2c;
+          margin-bottom: 1.5rem;
+          text-transform: uppercase;
+          margin-bottom: 1rem;
+        }
+
+        .heading-text {
+          margin-bottom: 1rem;
+          color: #bbbbbb;
+          font-size: 1rem;
+        }
+
+        .points {
+          margin-bottom: 1rem;
+          color: #bbbbbb;
+          font-weight: 500;
+          padding-left: 1.1rem;
+
+          li {
+            margin-bottom: 1rem;
+            list-style: disc;
+
+            &:last-child {
+              margin-bottom: 1rem;
+            }
+          }
+        }
+
+        .create-account-btn {
+          border: none;
+          padding: 1rem 2.2rem;
+          border-radius: 0.3rem;
+          background-color: rgb(125, 224, 175);
+          color: #fff;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+  .react-responsive-modal-closeButton {
+    background: #fff;
+  }
+}

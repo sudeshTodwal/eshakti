@@ -1,0 +1,26 @@
+.sizeChartPopup {
+  width: 100%;
+
+  .inner-container {
+    padding: 1.5rem;
+  }
+
+  .size-chart-desktop {
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+  }
+
+  .size-chart-mobile {
+    width: 100%;
+  }
+
+  h5 {
+    margin-top: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+}

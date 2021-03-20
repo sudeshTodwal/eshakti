@@ -1,0 +1,188 @@
+.whole-sale {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 1rem 4.5rem;
+
+  .title-text {
+    text-align: center;
+    margin-top: 2rem;
+
+    p {
+      font-size: 1.2rem;
+    }
+
+    h1 {
+      margin-top: 1rem;
+    }
+  }
+
+  .content {
+    .write-us {
+      margin: 2rem auto;
+      display: flex;
+
+      .left {
+        width: 50%;
+        padding: 2rem;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .right {
+        width: 50%;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+
+        h3 {
+          font-size: 1.2rem;
+        }
+
+        .key-points {
+          li {
+            display: flex;
+            align-items: center;
+            font-size: 0.9rem;
+            line-height: 1.55;
+
+            span {
+              display: flex;
+
+              &.text {
+                font-size: 0.9rem;
+                color: #202020;
+              }
+
+              &.icon {
+                svg {
+                  font-size: 2rem;
+                  color: #202020;
+                }
+              }
+            }
+          }
+        }
+
+        .btn-part {
+          margin-top: 1rem;
+          .write-us-btn {
+            padding: 0.8rem 1.5rem;
+            background-color: #202020;
+            color: #f4f4f4;
+            border: none;
+            cursor: pointer;
+
+            span {
+              font-size: 1.1rem;
+              letter-spacing: 1px;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+    }
+
+    .custom-clothing {
+      margin: 2rem auto;
+      display: flex;
+
+      .left {
+        width: 50%;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+
+        h3 {
+          font-size: 1.2rem;
+        }
+
+        p {
+          font-size: 0.9rem;
+          line-height: 1.55;
+        }
+      }
+
+      .right {
+        width: 50%;
+        padding: 2rem;
+
+        img {
+          width: 100%;
+        }
+
+        width: 50%;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+
+    .enquiry-form {
+      .title-area {
+        width: 70%;
+        text-align: center;
+        margin: 2rem auto;
+
+        h3 {
+          font-size: 1.8rem;
+        }
+
+        p {
+          font-size: 0.9rem;
+          line-height: 1.55;
+        }
+      }
+      .form {
+        width: 70%;
+        margin: 0 auto;
+
+        form {
+          .form-control {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            input[type="text"],
+            input[type="email"],
+            input[type="number"] {
+              height: 2.5rem;
+              padding: 1rem;
+            }
+
+            label {
+              margin-bottom: 0.5rem;
+              font-size: 0.8rem;
+            }
+
+            textarea {
+              height: 4rem;
+              padding: 1rem;
+            }
+
+            input,
+            textarea {
+              width: 100%;
+            }
+
+            input[type="submit"] {
+              margin-top: 1rem;
+              padding: 0.7rem;
+              background: #202020;
+              color: #f3f3f3;
+              border: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

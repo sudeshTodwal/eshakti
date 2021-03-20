@@ -1,0 +1,86 @@
+.affilliate-page {
+  padding: 1rem 4.5rem;
+  min-height: 70vh;
+
+  .title {
+    text-align: center;
+    color: #2e333d;
+    padding: 5rem 0rem;
+  }
+
+  .content {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    .common {
+      display: flex;
+      margin-bottom: 4rem;
+
+      .img {
+        flex-grow: 1;
+        img {
+          width: 100%;
+        }
+      }
+
+      .text-content {
+        width: 50%;
+        flex-grow: 1;
+        padding: 4rem 4rem 4rem 4rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+        .content-title {
+          color: #2e333d;
+          font-weight: 900;
+          align-self: flex-start;
+          font-size: 1.8rem;
+        }
+
+        .description {
+          color: #3f4145;
+          line-height: 1.45;
+          margin-top: 15px;
+
+          p {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+          }
+        }
+      }
+    }
+
+    .join-program {
+      font-weight: 800;
+      color: #2e333d;
+      text-transform: capitalize;
+    }
+
+    .antlink {
+      margin-top: 1rem;
+      img {
+        width: 40px;
+      }
+
+      .email {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        color: #2e333d;
+        font-size: 0.9rem;
+      }
+
+      .apply-now-btn {
+        text-align: center;
+        button {
+          color: #fff !important;
+          background-color: #f25c50;
+          border: none;
+          padding: 0.8rem 1.5rem;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

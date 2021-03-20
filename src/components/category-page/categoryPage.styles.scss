@@ -1,0 +1,112 @@
+.category-page {
+  padding: 3.5rem 2.5rem;
+  position: relative;
+  min-height: 100vh;
+
+  .inner-container {
+    margin: 0 auto;
+    max-width: 1360px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 25% 75%;
+
+    .filters-area {
+      padding: 2rem;
+      background-color: #f5f3f3;
+      margin-right: 2rem;
+      z-index: 20;
+    }
+
+    .product-listing {
+      .details-and-view-options {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+
+        .filter-badge {
+          display: none;
+          justify-content: space-between;
+          align-items: center;
+          border: 1px solid #c0c0c0;
+          padding: 0.5rem;
+          color: #838383;
+
+          .icon {
+            display: flex;
+            margin-left: 0.3rem;
+          }
+        }
+
+        .number-of-results {
+          color: #838383;
+        }
+
+        .right-actions {
+          display: flex;
+          align-items: center;
+
+          .dropdown {
+            margin-right: 1rem;
+
+            select {
+              padding: 0.55rem 0rem;
+              width: 8.5rem;
+              background-color: #ffff;
+              color: #838383;
+              border: none;
+            }
+          }
+
+          .views-icons {
+            display: flex;
+
+            img {
+              cursor: pointer;
+              width: 25px;
+              height: 25px;
+              margin-left: 0.5rem;
+            }
+          }
+        }
+      }
+
+      .number-of-results-small {
+        display: none;
+        color: #838383;
+        margin-bottom: 1rem;
+      }
+
+      .products {
+        &.grid-view-three {
+          display: grid;
+          grid-template-columns: 32% 32% 32%;
+          justify-content: space-between;
+
+          .product_card {
+            margin-bottom: 3rem;
+          }
+        }
+
+        &.grid-view-two {
+          display: grid;
+          grid-template-columns: 47% 47%;
+          justify-content: space-between;
+
+          .product_card {
+            margin-bottom: 3rem;
+          }
+        }
+      }
+    }
+  }
+
+  .no-data {
+    font-size: 1.2rem;
+    color: #838383;
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    transform: translate(-50%, -50%);
+  }
+}

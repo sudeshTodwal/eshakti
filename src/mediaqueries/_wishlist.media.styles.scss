@@ -1,0 +1,42 @@
+@media only screen and (max-width: 1000px) {
+  .wishlist {
+    .listing {
+      .item {
+        width: 33% !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    .wishlist {
+      padding: 1rem 2rem;
+
+      .wishlist-title {
+        font-size: 1.5rem;
+      }
+
+      .inner-container {
+        .listing {
+          .item {
+            width: 100% !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wishlist {
+    padding: 2.5rem 2rem !important;
+    .inner-container {
+      .listing {
+        .item {
+          width: 43% !important;
+        }
+      }
+    }
+  }
+}

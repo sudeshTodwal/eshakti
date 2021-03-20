@@ -1,0 +1,132 @@
+@media only screen and (max-width: 1030px) {
+  .shipping-info {
+    .inner-container {
+      flex-direction: column;
+    }
+
+    .inner-container {
+      .left {
+        width: 100% !important;
+        border-right: none !important;
+        padding-right: 0 !important;
+      }
+
+      .right {
+        width: 100% !important;
+        padding-left: 0 !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .shipping-info {
+    padding: 2rem 2rem !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .shipping-info {
+    .inner-container {
+      .left {
+        .title {
+          font-size: 0.9rem !important;
+          font-weight: 600 !important;
+        }
+
+        .login-link {
+          .link {
+            font-size: 0.95rem !important;
+          }
+        }
+
+        .mid-title {
+          .title-text {
+            font-weight: 600 !important;
+            font-size: 0.9rem !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 458px) {
+  .shipping-info {
+    input,
+    select,
+    label {
+      font-size: 0.9rem !important;
+    }
+    .save-info {
+      p {
+        font-size: 0.9rem;
+      }
+    }
+
+    .top-title-area {
+      flex-direction: column-reverse !important;
+    }
+
+    .left {
+      .title {
+        margin-top: 1rem !important;
+      }
+
+      .info-form {
+        .bottom {
+          flex-direction: column;
+          align-items: flex-start !important;
+
+          .form-input {
+            width: 100% !important;
+          }
+
+          input {
+            padding: 0.8rem !important;
+            margin-top: 1rem;
+          }
+        }
+      }
+    }
+
+    .right {
+      .sub-total,
+      .tax {
+        .text {
+          font-size: 1.1rem !important;
+        }
+        .value {
+          font-size: 1.2rem !important;
+        }
+      }
+
+      .shipping {
+        .text {
+          font-size: 1.1rem !important;
+        }
+        .value {
+          font-size: 0.7rem !important;
+        }
+      }
+    }
+  }
+}
+
+// @media only screen and (max-width: 768px) {
+//   .cart-container {
+//     padding: 2rem 2rem !important;
+//   }
+// }
+
+// @media only screen and (max-width: 420px) {
+//   .cart-container {
+//     .empty-cart {
+//       font-size: 1.3rem !important;
+
+//       .checkout-btn {
+//         font-size: 0.9rem !important;
+//       }
+//     }
+//   }
+// }

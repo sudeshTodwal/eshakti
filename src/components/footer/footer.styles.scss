@@ -1,0 +1,116 @@
+.footer {
+  margin-top: 2rem;
+  padding: 1rem 4.5rem;
+  border-top: 1px solid #b6b6b6;
+
+  .inner_container {
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .order,
+    .partner,
+    .about,
+    .contact {
+      h4 {
+        padding-left: 0.3rem;
+        font-size: 1rem;
+        color: #202020;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 600;
+      }
+
+      ul {
+        li {
+          margin-bottom: 0.7rem;
+          display: flex;
+          font-size: 0.95rem;
+
+          span {
+            display: inline-block;
+            color: #5c5c5c;
+            font-weight: 200;
+            margin-right: 0.5rem;
+            font-size: 0.95rem;
+
+            &.right_arrow_icon {
+              color: rgb(153, 151, 151);
+            }
+          }
+
+          .text {
+            color: #636363;
+            display: inline-block;
+            font-weight: 400;
+          }
+
+          a {
+            color: #5c5c5c;
+            font-size: 0.95rem;
+          }
+
+          .phone,
+          .watch {
+            color: #15e0ba;
+          }
+        }
+
+        .social_icons {
+          .facebook_icon {
+            padding: 0.8rem;
+            background-color: #15e0ba;
+            color: #fff;
+            font-size: 1.1rem;
+            border-radius: 0.3rem;
+          }
+
+          .social_icon {
+            border-radius: 0.3rem;
+            padding: 0.8rem;
+            margin-left: 0.2rem;
+            border: 1px solid #dad8d8;
+            color: #9e9c9c;
+            cursor: pointer;
+
+            &:hover {
+              padding: 0.8rem;
+              background-color: #15e0ba;
+              color: #fff;
+              font-size: 1.1rem;
+              border-radius: 0.3rem;
+            }
+          }
+        }
+      }
+    }
+
+    .newsletter {
+      margin-top: 2rem;
+
+      .input_box {
+        display: flex;
+
+        input {
+          border: 1px solid #b8b8b8;
+          padding: 1rem;
+        }
+
+        button {
+          background-color: #15e0ba;
+          border: none;
+          padding: 1rem;
+          cursor: pointer;
+
+          span {
+            display: flex;
+            color: #fff;
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+@media only screen and (max-width: 600px) {
+  .whole-sale {
+    padding: 2rem 2rem !important;
+
+    .title,
+    .title-text {
+      font-size: 1.5rem !important;
+    }
+
+    .write-us {
+      .right {
+        padding-bottom: 0rem !important;
+
+        h3 {
+          margin-top: 0;
+        }
+      }
+    }
+
+    .custom-clothing {
+      .left {
+        h3 {
+          margin-top: 0;
+        }
+      }
+    }
+
+    .enquiry-form {
+      .title-area {
+        width: 100% !important;
+      }
+
+      .form {
+        width: 100% !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .whole-sale {
+    .write-us {
+      .left,
+      .right {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+
+      .right {
+        padding-top: 0 !important;
+      }
+    }
+
+    .custom-clothing {
+      .left,
+      .right {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+
+      .left {
+        padding-top: 0 !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .whole-sale {
+    .content {
+      .write-us {
+        flex-direction: column;
+
+        .left,
+        .right {
+          width: 100% !important;
+        }
+      }
+
+      .custom-clothing {
+        flex-direction: column-reverse;
+
+        .left,
+        .right {
+          width: 100% !important;
+        }
+      }
+      .enquiry-form {
+        .title-area {
+          width: 100%;
+        }
+
+        .form {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}

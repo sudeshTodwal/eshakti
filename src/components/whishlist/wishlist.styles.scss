@@ -1,0 +1,56 @@
+.wishlist {
+  padding: 3.5rem 4.5rem;
+  min-height: 70vh;
+
+  .inner-container {
+    max-width: 1360px;
+    margin: 0 auto;
+
+    .wishlist-title {
+      text-align: center;
+      color: #202020;
+    }
+
+    .listing {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .item {
+        width: 23%;
+        position: relative;
+        margin-bottom: 2rem;
+        // flex-basis: 200px;
+
+        .heartIcon {
+          position: absolute;
+          display: flex;
+          cursor: pointer;
+
+          svg {
+            font-size: 1.5rem;
+            color: #ff7575;
+          }
+        }
+
+        .product_card {
+          .img {
+            width: 100%;
+            height: auto;
+
+            img {
+              object-fit: cover;
+            }
+          }
+        }
+      }
+
+      .no-items {
+        margin: 2rem auto;
+        color: #c7c7c7;
+      }
+    }
+  }
+}

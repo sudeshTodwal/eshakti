@@ -1,0 +1,83 @@
+@media only screen and (max-width: 660px) {
+  .inner-container-login {
+    .title {
+      .title-text {
+        font-size: 1.2rem;
+      }
+    }
+
+    .area-title {
+      font-size: 1.2rem !important;
+      margin-bottom: 0.5rem !important;
+    }
+
+    .content {
+      flex-direction: column;
+
+      .left,
+      .right {
+        width: 100% !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+      }
+
+      .right {
+        text-align: center;
+      }
+
+      .right {
+        .area-title {
+          display: none;
+        }
+
+        .discription {
+          display: none;
+        }
+
+        .create-account-btn {
+          background-color: #fff !important;
+          color: #7de0af !important;
+          font-size: 1.1rem !important;
+          font-weight: 800;
+        }
+      }
+    }
+  }
+
+  .inner-container-signup {
+    .content {
+      padding-top: 1rem !important;
+      padding-bottom: 0.5rem !important;
+
+      .left {
+        padding-right: 0 !important;
+      }
+    }
+    .title {
+      .title-text {
+        font-size: 1.2rem;
+      }
+    }
+
+    .area-title {
+      font-size: 1.2rem !important;
+      margin-bottom: 0.5rem !important;
+    }
+
+    .main-wrap {
+      flex-direction: column;
+      .left {
+        padding-right: 0 !important;
+      }
+      .right {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+
+        .form {
+          display: flex;
+          flex-direction: column-reverse;
+        }
+      }
+    }
+  }
+}

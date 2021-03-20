@@ -1,0 +1,15 @@
+.recomended-product-detail {
+  display: flex;
+  padding: 2rem;
+
+  .left {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+
+  .right {
+    padding: 2rem;
+  }
+}

@@ -1,0 +1,53 @@
+.brand-names-filter {
+  border-bottom: 1px solid #b6b6b6;
+
+  .title {
+    font-size: 1rem;
+    color: #202020;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    color: #333333;
+    margin-bottom: 2rem;
+
+    .list-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 1rem;
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      .eachValue {
+        display: flex;
+
+        input {
+          margin-right: 0.5rem;
+          width: 1.2rem;
+          height: 1.2rem;
+        }
+        label {
+          cursor: pointer;
+          display: flex;
+        }
+      }
+
+      .quantity {
+        .text {
+          display: inline-block;
+          border-radius: 12px;
+          padding: 0.2rem 1.2rem;
+          border: 1px solid #b6b6b6;
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+}

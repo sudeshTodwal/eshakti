@@ -1,0 +1,65 @@
+.shipping-and-payment {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 1rem 4.5rem;
+
+  .main-title {
+    text-align: center;
+    color: #202020;
+  }
+
+  .each-description {
+    margin-bottom: 1.5rem;
+
+    .each-description-title {
+      color: #474747;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .each-description-content {
+      font-size: 0.95rem;
+      line-height: 1.55;
+
+      .top,
+      .bottom {
+        font-size: 0.95rem;
+      }
+
+      ul {
+        div {
+          display: flex;
+
+          span {
+            display: flex;
+            padding-top: 0.2rem;
+          }
+
+          li {
+            padding-left: 0.3rem;
+            font-size: 0.95rem;
+            line-height: 1.55;
+            padding-bottom: 0.5rem;
+          }
+        }
+      }
+    }
+
+    table {
+      color: #474747;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+
+      th,
+      td {
+        border-color: #474747;
+        padding: 0.3rem;
+      }
+    }
+
+    .table-descriptio {
+      font-size: 0.95rem;
+      line-height: 1.55;
+    }
+  }
+}

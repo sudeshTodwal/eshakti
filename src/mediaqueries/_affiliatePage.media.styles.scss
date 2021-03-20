@@ -1,0 +1,129 @@
+@media only screen and (max-width: 600px) {
+  .App {
+    .affilliate-page {
+      .title {
+        font-size: 1.5rem;
+      }
+
+      .content {
+        .common {
+          flex-direction: column;
+
+          .text-content {
+            .content-title {
+              font-size: 1.3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    .affilliate-page {
+      padding: 1rem 2rem;
+      .content {
+        .common {
+          flex-direction: column;
+
+          .img {
+            text-align: center;
+
+            img {
+              width: 100% !important;
+            }
+          }
+
+          .text-content {
+            padding: 2rem 0rem;
+            width: 100% !important;
+
+            .content-title {
+              margin: auto;
+            }
+          }
+        }
+      }
+
+      .be-part-of-mission {
+        margin-bottom: 0 !important;
+      }
+      .how-does-it-work {
+        flex-direction: column-reverse !important;
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .App {
+    .affilliate-page {
+      .title {
+        padding: 1rem;
+      }
+      .content {
+        .common {
+          flex-direction: column;
+
+          .img {
+            text-align: center;
+
+            img {
+              width: 80%;
+            }
+          }
+
+          .text-content {
+            margin: 0 auto;
+            width: 80%;
+            text-align: center;
+
+            .content-title {
+              margin: auto;
+            }
+          }
+        }
+      }
+      .be-part-of-mission {
+        margin-bottom: 0 !important;
+      }
+      .how-does-it-work {
+        flex-direction: column-reverse !important;
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .App {
+    .affilliate-page {
+      .content {
+        .common {
+          .left-started {
+            .img {
+              img {
+                width: 90%;
+              }
+            }
+            .text-content {
+              padding-right: 0rem;
+            }
+          }
+
+          .right-started {
+            img {
+              width: 90%;
+            }
+            .text-content {
+              padding-left: 0rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

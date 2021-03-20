@@ -1,0 +1,62 @@
+.privacy-policy {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 1rem 4.5rem;
+  min-height: 70vh;
+
+  .main-title {
+    text-align: center;
+    color: #202020;
+    // margin-bottom: 1rem !important;
+  }
+
+  .each-description {
+    margin-bottom: 1.5rem;
+
+    .each-description-title {
+      color: #474747;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-top: 1rem !important;
+    }
+
+    .sub-description {
+      margin-bottom: 1rem;
+      font-size: 0.9rem;
+    }
+
+    .each-description-title-dark {
+      color: #202020;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+
+    .sub-heading {
+      margin-bottom: 1rem;
+      color: #474747;
+    }
+
+    .each-description-content {
+      font-size: 0.9rem;
+      line-height: 1.55;
+    }
+
+    ul {
+      div {
+        display: flex;
+        padding-left: 0.7rem;
+
+        span {
+          display: flex;
+          padding-top: 0.2rem;
+        }
+
+        li {
+          padding-left: 0.3rem;
+          line-height: 1.8;
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}

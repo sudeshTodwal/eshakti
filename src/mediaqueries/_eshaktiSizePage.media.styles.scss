@@ -1,0 +1,17 @@
+@media only screen and (max-width: 600px) {
+  .App {
+    .eshakti-sizes {
+      .main-title {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    .eshakti-sizes {
+      padding: 1rem 2rem;
+    }
+  }
+}

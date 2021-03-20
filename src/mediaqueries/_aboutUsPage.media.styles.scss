@@ -1,0 +1,160 @@
+@media only screen and (max-width: 482px) {
+  .App {
+    .about-us {
+      padding: 1rem 1rem;
+
+      .content {
+        .what-eshakti-means {
+          .page-desc {
+            width: 100%;
+          }
+
+          .content {
+            flex-wrap: wrap;
+            justify-content: center !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    .about-us {
+      .area-title,
+      .main-title {
+        font-size: 1.5rem;
+      }
+
+      .about-eshakti,
+      .culture,
+      .location,
+      .jobs {
+        .left,
+        .right {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+      }
+
+      .customer-speaks,
+      .what-eshakti-means {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        .content {
+          .img {
+            margin: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 672px) {
+  .App {
+    .about-us {
+      padding: 1rem 2rem;
+
+      .content {
+        .what-eshakti-means {
+          .page-desc {
+            width: 100%;
+          }
+
+          .content {
+            flex-wrap: wrap;
+            justify-content: space-between;
+          }
+        }
+
+        .customer-speaks {
+          .page-desc {
+            width: 100% !important;
+          }
+          .content {
+            .img {
+              margin: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .App .customer-speaks .content .customer-review-card {
+    max-width: 100% !important;
+    margin: 0rem 0rem 3rem 0rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    .about-us {
+      padding: 1rem 2rem;
+      .content {
+        .left,
+        .right {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+
+        .what-eshakti-means {
+          .page-desc {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .App {
+    .about-us {
+      .content {
+        .about-eshakti,
+        .culture {
+          flex-direction: column-reverse;
+
+          .left,
+          .right {
+            width: 100%;
+          }
+
+          .left {
+            padding-top: 0;
+          }
+        }
+        .location,
+        .jobs {
+          flex-direction: column;
+          .left,
+          .right {
+            width: 100%;
+          }
+
+          .right {
+            padding-top: 0;
+          }
+        }
+
+        .customer-speaks {
+          padding: 1rem 2rem;
+
+          .page-desc {
+            width: 80%;
+          }
+
+          .content {
+            grid-template-columns: 1fr 1fr;
+          }
+        }
+      }
+    }
+  }
+}

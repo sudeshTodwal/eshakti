@@ -1,0 +1,360 @@
+@media only screen and (max-width: 470px) {
+  .App {
+    .top_nav {
+      .inner-container-topbar {
+        .left_items {
+          .currency_selector {
+            // display: none;
+            font-weight: 500;
+          }
+
+          .email_address {
+            .icon {
+              margin-left: 0;
+            }
+          }
+        }
+
+        .right_items {
+          .my_account,
+          .login {
+            padding: 0 0.5rem;
+            .text {
+              font-size: 0.9rem;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 585px) {
+  .App {
+    .menu-and-wish-icon {
+      .icon {
+        font-size: 1.4rem;
+      }
+    }
+
+    .action_icons {
+      .icon {
+        font-size: 1.5rem !important;
+      }
+    }
+
+    .product_listing {
+      .products {
+        .product_card {
+          width: 100% !important;
+          margin-bottom: 2rem;
+
+          .img {
+            height: 65vh;
+          }
+        }
+      }
+    }
+
+    .our_qualities {
+      .inner_container {
+        .shipping,
+        .return,
+        .support,
+        .payment {
+          width: 100% !important;
+          margin-bottom: 1.5rem;
+        }
+      }
+    }
+
+    .bottom_bar {
+      .copyright_text {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .product_listing {
+    .products {
+      .product_card {
+        // width: 100% !important;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .App {
+    .footer {
+      .inner_container {
+        .common {
+          width: 100%;
+          margin-bottom: 1rem;
+        }
+
+        .newsletter {
+          .input_box {
+            input {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .mobile-menu-sidebar {
+    width: 100vw !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .product_listing {
+    .product_card {
+      .img {
+        height: 300px;
+      }
+    }
+  }
+
+  .product_listing {
+    .title {
+      font-size: 1.8rem !important;
+    }
+    .description {
+      font-size: 1rem !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .bottom_bar {
+    .inner_area {
+      flex-wrap: wrap;
+      justify-content: center !important;
+
+      .copyright_text {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    .sale_banner,
+    .product_listing,
+    .footer,
+    .mid_banner,
+    .our_qualities,
+    .navbar-smaller {
+      padding-left: 2rem !important;
+      padding-right: 2rem !important;
+    }
+
+    .top_nav {
+      padding: 0 2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .product_listing {
+    .description {
+      width: 95% !important;
+    }
+  }
+
+  .footer {
+    .inner_container {
+      .common {
+        width: 48%;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .App {
+    .top_nav {
+      .inner-container-topbar {
+        .left_items {
+          .email_address,
+          .phone {
+            padding: 1rem 0.2rem;
+
+            .text {
+              display: none;
+              padding-right: 0.6rem;
+            }
+          }
+        }
+
+        .right_items {
+          .my_account,
+          .login {
+            .icon {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    .navbar-smaller {
+      padding: 1rem 2.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+  .App {
+    .top_nav {
+      .inner-container-topbar {
+        .right_items {
+          .social_media_icons {
+            display: none;
+          }
+
+          .login {
+            padding-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1065px) {
+  .App {
+    .our_qualities {
+      .inner_container {
+        flex-wrap: wrap;
+
+        .shipping,
+        .return,
+        .support,
+        .payment {
+          width: 50%;
+          margin-bottom: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .App {
+    .top_nav {
+      .inner-container-topbar {
+        .left_items {
+          .phone,
+          .email_address,
+          .currency_selector {
+            .text {
+              font-size: 0.85rem;
+            }
+
+            span {
+              font-size: 0.85rem;
+            }
+          }
+        }
+
+        .right_items {
+          .my_account,
+          .login {
+            .link {
+              span {
+                font-size: 0.85rem;
+              }
+            }
+
+            span {
+              font-size: 0.85rem;
+            }
+          }
+
+          .login {
+            padding-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1330px) {
+  .App {
+    .navbar-smaller {
+      .menu-and-wish-icon {
+        font-size: 1.7rem;
+      }
+    }
+
+    .product_listing {
+      .products {
+        .product_card {
+          width: 30%;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+
+    .our_qualities {
+      .shipping,
+      .return,
+      .support,
+      .payment {
+        .icon {
+          font-size: 1.8rem !important;
+        }
+        .description {
+          h4 {
+            white-space: nowrap;
+            font-size: 1rem !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .App {
+    .product_listing {
+      .heading_text {
+        width: 80vw;
+
+        .description {
+          width: 70%;
+        }
+      }
+
+      .products {
+        .product_card {
+          width: 48%;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .App {
+    .navlinks {
+      .nav-link {
+        li {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}

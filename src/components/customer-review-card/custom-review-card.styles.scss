@@ -1,0 +1,35 @@
+.customer-review-card {
+  max-width: 350px;
+  margin: 0rem 0.5rem 3rem 0.5rem;
+  border: 1px solid #dfdfdf;
+  padding: 1.5rem;
+
+  .stars {
+    .icon {
+      display: inline-block;
+      margin-right: 0.3rem;
+    }
+  }
+
+  .review-text {
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    line-height: 1.55;
+    margin-bottom: 1rem;
+    font-style: italic;
+  }
+
+  .review-owner-name {
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 0.95rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .review-date {
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+}

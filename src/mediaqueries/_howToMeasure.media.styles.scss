@@ -1,0 +1,65 @@
+@media only screen and (max-width: 482px) {
+  .App {
+    .how-to-measure {
+      padding: 1rem 2rem !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    .how-to-measure {
+      padding: 1rem 2rem;
+      .each-measurement-left,
+      .each-measurement-right {
+        .left,
+        .right {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .App {
+    .how-to-measure {
+      .each-measurement-left {
+        flex-direction: column;
+
+        .area-title {
+          margin-top: 0;
+        }
+
+        .left,
+        .right {
+          width: 100%;
+        }
+
+        .left {
+          padding-bottom: 0rem;
+          text-align: left;
+        }
+      }
+
+      .each-measurement-right {
+        flex-direction: column-reverse;
+
+        .area-title {
+          margin-top: 0;
+        }
+
+        .left,
+        .right {
+          width: 100%;
+        }
+
+        .right {
+          padding-bottom: 0;
+          text-align: left;
+        }
+      }
+    }
+  }
+}

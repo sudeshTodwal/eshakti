@@ -1,0 +1,66 @@
+.eshakti-sizes {
+  margin: 0 auto;
+  padding: 1rem 4.5rem;
+  max-width: 1360px;
+
+  .table {
+    overflow-x: auto;
+    table {
+      width: 1100px;
+      border: 1px solid #2e2e2e;
+
+      th,
+      td {
+        border: 1px solid #2e2e2e;
+      }
+    }
+  }
+
+  .main-title {
+    text-align: center;
+    text-transform: capitalize;
+    color: #202020;
+  }
+
+  .each-description-title {
+    color: #474747;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 1rem !important;
+  }
+
+  .subheading {
+    font-weight: 500 !important;
+    margin-top: 1rem;
+  }
+
+  .each-description {
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+
+  .design-your-perfect-fit,
+  .size-chart,
+  .women-size-chart,
+  .providing-your-measurement,
+  .before-you-start,
+  .get-help-with-order {
+    margin-bottom: 2rem;
+  }
+
+  .get-help-with-order {
+    .contacts {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.55;
+
+      .subheading {
+        margin-bottom: 0rem;
+      }
+
+      span {
+        font-size: 0.95rem;
+      }
+    }
+  }
+}
